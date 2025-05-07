@@ -6,13 +6,18 @@
  * Modifica el cuerpo de la función para utilizar el operador ternario y conseguir el mismo resultado
  */
 
-function hipotecaSalvaje(edad) {
-    if (edad > 40) {
-        return 50000;
-    }
+// function hipotecaSalvaje(edad) {
+//     if (edad > 40) {
+//         return 50000;
+//     }
 
-    return 30000;
+//     return 30000;
+// }
+
+function hipotecaSalvaje(edad) {
+    return (edad > 40) ? 50000 : 30000;
 }
+
 
 // Caso de prueba 1: Edad mayor a 40
 // Entrada: 45
