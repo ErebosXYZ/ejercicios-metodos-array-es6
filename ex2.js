@@ -14,3 +14,4 @@ if (edad >= 18) {
 console.log(puedesPasar) // Debería ser true pero vale false. ¿por qué?
 
 // PREGUNTA: ¿Por qué no se actualiza correctamente la variable 'puedesPasar'?
+// Porque estás volviendo a declarar la variable con let y ésta ya está declarada antes. El if está dentro del scope del primer let.

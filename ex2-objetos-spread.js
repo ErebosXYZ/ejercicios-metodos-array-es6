@@ -5,6 +5,16 @@ const perro = {
     edadCanina: 5
 };
 
+const edadHumana = perro.edadCanina * 7;
+
+const perroConEdadHumana = {
+    ...perro,
+    edadHumana
+}
+
+console.log(perroConEdadHumana);
+
+
 // Tu tarea:
 // 1. Calcula la edad humana del perro (edadCanina * 7).
 // 2. Usa el operador spread para copiar el objeto `perro`.
@@ -17,5 +27,3 @@ const perro = {
 //   edadCanina: 5,
 //   edadHumana: 35
 // }
-
-
